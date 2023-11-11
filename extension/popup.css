@@ -1,0 +1,25 @@
+body {
+    width: 200px;
+    height: 80px;
+    margin: 0;
+  }
+  
+  #counter-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px;
+    height: 200px;
+    font-size: large;
+    line-height: 40px;
+    background-color: rgb(57, 62, 60);
+    color: azure;
+    padding-left: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  
+  #word-count, #char-count {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
